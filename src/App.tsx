@@ -1,11 +1,12 @@
 import './App.css';
+import BestSellers from './components/BestSellers';
 import { Header } from './components/Header';
 
 function App() {
   return (
     <div className={'appContainer'}>
       <Header />
-      <h1>Shop</h1>
+      <BestSellers />
     </div>
   );
 }
